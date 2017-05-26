@@ -1,0 +1,14 @@
+CREATE TABLE updated(
+	`id` int(10) NOT NULL AUTO_INCREMENT,
+	`section` varchar(255) NOT NULL,
+	`latest_update` DATETIME NOT NULL,
+	PRIMARY KEY (`id`)
+)
+
+CREATE TABLE universe(
+	`id` int(10) NOT NULL AUTO_INCREMENT,
+	`player` varchar(255) NOT NULL,
+	`name` varchar(255) NOT NULL,
+	`coords` varchar(255) NOT NULL,
+	PRIMARY KEY (`id`)
+)
